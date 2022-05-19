@@ -81,26 +81,5 @@ Bank b;
         }
 
     }
-
-    /* Hints on controller methods:
-     *
-     * Declare two controller methods, each of which declared with a parameter with type View (see Week 9 Tutorials).
-     *  - One method (say cm1) should be attached to the "ADD A NEW ACCOUNT" button,
-     *      whereas the other method (say cm2) should be attached to the "CONFIRM" button.
-     *
-     *  - Controller method cm1 should:
-     *    + Retrieve the name of client and the initial balance in the corresponding textfields.
-     *      You may need to convert the retrieved text, e.g., "23.4" to a double value using Double.parseDouble.
-     *    + Then, invoke the relevant method on the shared bank object to add a new client/account accordingly.
-     *    + Finally, display the status of the bank to the output textview.
-     *
-     * - Controller method cm2 should:
-     *    + Retrieve the chosen service type listed in the spinner (Deposit, Withdraw, Transfer, Print Statement)
-     *    + Depending on the service type chosen, retrieve the from-account, to-account, and/or amount accordingly.
-     *      (See the "Assumed Usage Pattern of the App" section in your Lab7 PDF instructions)
-     *    + Then, invoke the relevant method(s), depending on the chosen service type, on the shared bank object.
-     *    + Finally, display the status of the bank (in the case of a deposit, withdraw, or transfer)
-     *          or the statement of an account (in the case of print statement) to the ouptut textview.
-     */
 	
 }
