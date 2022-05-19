@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bank App - Tony Pham Tran (218159046)</string>
+
+    <string-array name="serivce">
+        <item>Deposit</item>
+        <item>Withdraw</item>
+        <item>Transfer</item>
+    </string-array>
+
+</resources>
